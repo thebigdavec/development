@@ -1,0 +1,47 @@
+body {
+  background-color: #F0FFF3;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4592af;
+}
+
+.profile-picture {
+  max-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 .8rem #00000066;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #4592af;
+}
+
+h1 a:hover {
+  color: #fa4659;
+}
+
+h1 a:active {
+  color: #11cbd7;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #4592af;
+}
+
+h3 a:hover {
+  color: #fa4659;
+}
+
+h3 a:active {
+  color: #11cbd7;
+}
+
+hr {
+  border-color: #c6f1e7;
+  border-style: dotted;
+  border-width: 10px 0 0;
+  width: 8%;
+}
