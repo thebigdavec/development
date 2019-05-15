@@ -1,3 +1,4 @@
+/* TAG SELECTORS */
 body {
   background-color: #F0FFF3;
   font-family: sans-serif;
@@ -5,12 +6,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #4592af;
-}
-
-.profile-picture {
-  max-width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 .8rem #00000066;
 }
 
 h1 a {
@@ -44,4 +39,21 @@ hr {
   border-style: dotted;
   border-width: 10px 0 0;
   width: 8%;
+}
+
+p {
+  color: grey;
+  transition-property: color;
+  transition: 150ms;
+}
+
+p:hover {
+  color: black;
+}
+
+/* CLASS SELECTORS */
+.profile-picture {
+  max-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 .8rem #00000066;
 }
